@@ -51,11 +51,11 @@ public String toString() {
 public void nhapThongTin() {
 	 System.out.print("Nhập id ");
      this.id = new Scanner(System.in).nextInt();
-	 System.out.print("Nhập họ và tên ");
+	 System.out.print("Nhập họ và tên : ");
 	        this.name = new Scanner(System.in).nextLine();
 	        System.out.print("Nhập địa chỉ: ");
 	        this.dob= new Scanner(System.in).nextLine();
-	        System.out.print("Nhập công việc ");
+	        System.out.print("Nhập công việc : ");
 	        this.job = new Scanner(System.in).nextLine();
 }
 

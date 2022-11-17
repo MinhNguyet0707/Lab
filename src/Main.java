@@ -14,7 +14,7 @@ public class Main {
 		do {
 			System.out.print("Xin mời nhập số lượng MenBer mới muốn thêm: ");
 			nhapM = new Scanner(System.in).nextInt();
-			if (nhapM <= 3) {
+			if (nhapM < 3) {
 				System.out.println("nhập tối thiểu là 3 menber");
 			} else {
 				break;
